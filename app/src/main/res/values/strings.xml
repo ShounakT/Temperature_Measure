@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Temperature_Measure</string>
+    <string name="todo">todo</string>
+    <string name="my_img_description">imgDecp</string>
+    <string name="enter_the_cricket_s_count">Enter the cricket\'s count</string>
+    <string name="textview1">TextView</string>
+    <string name="check">CHECK</string>
+    <string name="note_to_calculate_temperature_count_the_total_number_of_cricket_chirps_and_then_enter_the_count_in_the_above_field">Note*: -To calculate temperature, count the total number of cricket chirps. And then enter the count in the above field.</string>
+</resources>

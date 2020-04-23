@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCBC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="40dp"
+        android:adjustViewBounds="false"
+        android:background="#FFCCBC"
+        android:backgroundTint="#FFCCBC"
+        android:contentDescription="@string/my_img_description"
+        android:foregroundTint="#FFCCBC"
+        android:tint="#FFCCBC"
+        android:tintMode="multiply"
+        android:visibility="visible"
+        app:srcCompat="@drawable/temp" />
+
+    <EditText
+        android:id="@+id/eT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_the_cricket_s_count"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#437C77"
+        android:gravity="center"
+        android:shadowColor="#494444"
+        android:text="@string/check"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#DCFFFFFF" />
+
+    <TextView
+        android:id="@+id/tV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/textview1" />
+
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/note_to_calculate_temperature_count_the_total_number_of_cricket_chirps_and_then_enter_the_count_in_the_above_field" />
+
+</LinearLayout>
