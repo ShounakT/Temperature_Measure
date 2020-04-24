@@ -6,4 +6,7 @@
     <string name="textview1">TextView</string>
     <string name="check">CHECK</string>
     <string name="note_to_calculate_temperature_count_the_total_number_of_cricket_chirps_and_then_enter_the_count_in_the_above_field">Note*: -To calculate temperature, count the total number of cricket chirps. And then enter the count in the above field.</string>
+    <string name="number_of_chirps_in_25_seconds">Number of chirps in 25 seconds</string>
+    <string name="did_you_know_you_can_determine_the_temperature_outside_by_counting_the_number_of_chiirps_the_cricket_makes_just_count_the_number_of_chirps_one_makes_in_25_seconds_and_place_that_number_in_the_box_below">Did you know you can determine the temperature outside by counting the number of chiirps the cricket makes? Just count the number of chirps one makes in 25 seconds and place that number in the box below:</string>
+    <string name="calculate_temperature">CALCULATE TEMPERATURE</string>
 </resources>

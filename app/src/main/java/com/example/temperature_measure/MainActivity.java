@@ -2,6 +2,7 @@ package com.example.temperature_measure;
 
 import android.os.Bundle;
 import android.text.TextUtils;
+import java.text.DecimalFormat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -39,12 +40,15 @@ public class MainActivity extends AppCompatActivity {
 
                     String Number = eT.getText().toString().trim();
                     final double temp;
+                    final String temp1;
                     int numCount = Integer.parseInt(Number);
                     temp = (numCount / 3.0) + 4;
+                    temp1 = new DecimalFormat("#.##").format(temp);
                     if (numCount < 0) {
                         tV.setText("Enter valid Input!");
                     }
-                    String text = "The Temperature is:" + " " + temp + " " + "degrees Celsius!";
+                    String text = "The Temperature is:" + " " + temp1 + " " +
+                            "Degrees Celsius!";
                     tV.setText(text);
                 }
 

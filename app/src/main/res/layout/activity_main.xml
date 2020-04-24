@@ -26,6 +26,17 @@
         android:visibility="visible"
         app:srcCompat="@drawable/temp" />
 
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/did_you_know_you_can_determine_the_temperature_outside_by_counting_the_number_of_chiirps_the_cricket_makes_just_count_the_number_of_chirps_one_makes_in_25_seconds_and_place_that_number_in_the_box_below"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/eT"
         android:layout_width="match_parent"
@@ -36,8 +47,9 @@
         android:layout_marginRight="10dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/enter_the_cricket_s_count"
-        android:inputType="number" />
+        android:hint="@string/number_of_chirps_in_25_seconds"
+        android:inputType="number"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/btn"
@@ -48,7 +60,7 @@
         android:backgroundTint="#437C77"
         android:gravity="center"
         android:shadowColor="#494444"
-        android:text="@string/check"
+        android:text="@string/calculate_temperature"
         android:textColor="#FFFFFF"
         android:textColorHint="#DCFFFFFF" />
 
@@ -59,14 +71,9 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
-        android:text="@string/textview1" />
-
-    <TextView
-        android:id="@+id/tV2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="@string/note_to_calculate_temperature_count_the_total_number_of_cricket_chirps_and_then_enter_the_count_in_the_above_field" />
+        android:text="@string/textview1"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
 
 </LinearLayout>
